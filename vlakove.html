@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <title>Любители на влакове</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Любители на влакове</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link ">Начало</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="vlakove.html" class="nav__link active-link">Влакове</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="zanas.html" class="nav__link">За нас</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contacts.html" class="nav__link">Контакти</a>
+                        </li>
+                    </ul>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Научи повече за влаковете</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Shinkansen</h3>
+                                <span class="place__subtitle">Япония</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak1" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">The Orient Express</h3>
+                                <span class="place__subtitle">Европа</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak2" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">The Glacier Express</h3>
+                                <span class="place__subtitle">Швейцария</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak3" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Rocky Mountaineer</h3>
+                                <span class="place__subtitle">Канада</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak4" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">The Ghan</h3>
+                                <span class="place__subtitle">Австралия</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak5" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                    <!--==================== PLACES CARD 6 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place6.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">ICE 3</h3>
+                                <span class="place__subtitle">Германия</span>
+                            </div>
+                        </div>
+
+                        <button data-toggle="modal" data-target="#vlak6" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Как работят влаковете?</h2>
+
+                <div class="video__container container">
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/trains_work.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--vlak1-->
+            <div id="vlak1" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">Shinkansen (Влак стрела), Япония</h5>
+                                    <p class="description">Shinkansen, известен със своята невероятна скорост и точност, свързва големите градове в Япония, достигайки скорости до 320 km/h (200 mph). С елегантен дизайн и удобни места за сядане, той предлага спираща дъха гледка към японската провинция и е известен със своята ефективност и безопасност.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--vlak2-->
+            <div id="vlak2" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">The Orient Express, Европа</h5>
+                                    <p class="description">Orient Express е легендарна железопътна услуга, която първоначално пътува от Париж до Истанбул. Известен с луксозните си помещения за настаняване и разкошни ресторанти, този влак пренася пътниците обратно в една отминала ера на елегантност, предлагайки зашеметяващ интериор и обслужване от световна класа по своите живописни маршрути из Европа.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--vlak3-->
+            <div id="vlak3" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">The Glacier Express, Швейцария</h5>
+                                    <p class="description">Често наричан „най-бавният експресен влак в света“, Glacier Express предлага спокойно пътуване през спиращите дъха швейцарски Алпи. С панорамни прозорци пътниците могат да се насладят на зашеметяващи гледки към планини, долини и очарователни села, докато се наслаждават на гурме ястия на борда.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--vlak4-->
+            <div id="vlak4" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">Rocky Mountaineer, Канада</h5>
+                                    <p class="description">Rocky Mountaineer отвежда пътниците на зашеметяващо пътешествие из канадските Скалисти планини, включващо луксозни автобуси и гурме ресторанти. Този влак работи през светлата част на деня, което позволява на пътниците да оценят напълно величествените пейзажи, включително заснежени върхове, блестящи езера и буйни гори.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--vlak5-->
+            <div id="vlak5" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">The Ghan, Австралия</h5>
+                                    <p class="description">Ghan е легендарен влак, който пресича сърцето на Австралия, от Аделаида до Дарвин. Простиращо се над 2800 километра, това пътуване предлага уникален поглед към необятната пустош на Австралия, с удобни кабини, изискани ресторанти и екскурзии за изследване на богатото културно и природно наследство по пътя.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--vlak6-->
+            <div id="vlak6" class="modal fade" role="dialog">
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="title">ICE 3, Германия</h5>
+                                    <p class="description">Влаковете ICE 3 имат максимална скорост от 320 km/h (200 mph), когато пътуват по високоскоростните железопътни линии, но на клас 403 е разрешено да достигнат максимална скорост от 330 km/h (210 mph), когато пътуват по високоскоростния маршрут между Франкфурт и Кьолн.</p>
+                                    <div class="text-center mt-30">
+                                        <a href="#" id="close-modal" data-dismiss="modal">Затвори</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Любители на влакове</h3>
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/codewars.itpg/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://www.discord.gg/xsHrwF3AkJ" target="_blank" class="footer__social">
+                                <i class="ri-discord-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/codewars.itpg/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@PGKMKS_Varna" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Повече</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">За нас</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Влакове</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Свържете се с нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 Любители на влакове. Всички права запазени.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Условия и споразумения</a>
+                        <a href="#" class="footer__terms-link">Декларация за поверителност</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        
+        <style>@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+            body {
+                font-family: 'Calibri', sans-serif !important;
+            }
+            
+            .card {
+                position: relative;
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                background-color: #fff;
+                border: 1px solid #d2d2dc;
+                border-radius: 2px;
+                box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+            }
+            
+            .card .card-body {
+                padding: 1rem 1rem;
+            }
+            
+            .title {
+                font-size: 25px;
+                font-weight: 300;
+                margin-top: 17px;
+                color: #544a26;
+            }
+            
+            .description {
+                font-size: 14px;
+                color: #867f64;
+            }
+            
+            .mt-30 {
+                margin-top: 30px;
+            }
+            
+            .modal {
+                text-align: center !important;
+                margin-top: 50px;
+            }
+            </style>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
